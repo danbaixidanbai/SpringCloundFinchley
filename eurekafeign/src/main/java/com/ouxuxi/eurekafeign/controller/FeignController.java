@@ -14,7 +14,7 @@ public class FeignController {
     @Resource
     private FeignDao feignDao;
 
-    @GetMapping(value = "/testfegin")
+    @GetMapping(value = "/test")
     public String sayHello(@RequestParam String name){
         return feignDao.sayHiFromClientOne(name);
     }
