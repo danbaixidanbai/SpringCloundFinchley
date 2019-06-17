@@ -9,6 +9,7 @@
         <module name="eurekafeign" />
         <module name="eurekaribbon" />
         <module name="eurekaserver" />
+        <module name="eurekazuul" />
         <module name="eurkaclient01" />
       </profile>
     </annotationProcessing>

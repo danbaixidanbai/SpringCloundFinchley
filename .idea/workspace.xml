@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab2f8a62-0afc-4a6c-b71f-2812019dc1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/impl/FeignDaoHystric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekafeign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekafeign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/EurekafeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/EurekafeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/FeignDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/FeignDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekafeign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekafeign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/eurkaclient01/target/" />
     <ignored path="$PROJECT_DIR$/eurekaribbon/target/" />
     <ignored path="$PROJECT_DIR$/eurekafeign/target/" />
+    <ignored path="$PROJECT_DIR$/eurekazuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,34 +35,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="404" />
-          <entry key="xml" value="165" />
-          <entry key="yml" value="146" />
+          <entry key="java" value="405" />
+          <entry key="xml" value="174" />
+          <entry key="yml" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="404" />
-          <entry key="XML" value="165" />
-          <entry key="YAML" value="146" />
+          <entry key="JAVA" value="405" />
+          <entry key="XML" value="174" />
+          <entry key="YAML" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="33" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="9" />
-          <entry key="yml" value="8" />
+          <entry key="java" value="36" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="11" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="33" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="9" />
-          <entry key="YAML" value="8" />
+          <entry key="JAVA" value="36" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="11" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -70,54 +70,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/FeignDao.java">
+        <entry file="file://$PROJECT_DIR$/eurekazuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/EurekafeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/impl/FeignDaoHystric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eurekafeign/pom.xml">
+        <entry file="file://$PROJECT_DIR$/eurekaribbon/src/main/java/com/ouxuxi/eurekaribbon/controller/SpringCouldRibbonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="304">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekazuul/src/main/java/com/ouxuxi/eurekazuul/EurekazuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,13 +141,16 @@
         <option value="$PROJECT_DIR$/eurkaclient01/src/main/java/com/ouxuxi/eurkaclient01/Eurkaclient01Application.java" />
         <option value="$PROJECT_DIR$/eurekaribbon/pom.xml" />
         <option value="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/FeignDao.java" />
-        <option value="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java" />
         <option value="$PROJECT_DIR$/eurkaclient01/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/impl/FeignDaoHystric.java" />
         <option value="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/EurekafeignApplication.java" />
         <option value="$PROJECT_DIR$/eurekafeign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/dao/FeignDao.java" />
         <option value="$PROJECT_DIR$/eurekafeign/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekazuul/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekazuul/src/main/java/com/ouxuxi/eurekazuul/EurekazuulApplication.java" />
+        <option value="$PROJECT_DIR$/eurekazuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java" />
       </list>
     </option>
   </component>
@@ -187,12 +181,13 @@
             <path>
               <item name="SpringCouldDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCouldDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekafeign" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekazuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCouldDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCouldDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekazuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +205,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560754109093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560755777621" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eurkaclient01Application">
+  <component name="RunManager" selected="Spring Boot.EurekafeignApplication">
     <configuration name="EurekafeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurekafeign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ouxuxi.eurekafeign.EurekafeignApplication" />
@@ -250,6 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekazuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekazuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ouxuxi.eurekazuul.EurekazuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Eurkaclient01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="eurkaclient01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ouxuxi.eurkaclient01.Eurkaclient01Application" />
@@ -263,6 +265,7 @@
       <item itemvalue="Spring Boot.Eurkaclient01Application" />
       <item itemvalue="Spring Boot.EurekaribbonApplication" />
       <item itemvalue="Spring Boot.EurekafeignApplication" />
+      <item itemvalue="Spring Boot.EurekazuulApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -278,17 +281,17 @@
       <workItem from="1560409107607" duration="8188000" />
       <workItem from="1560472795898" duration="777000" />
       <workItem from="1560473805548" duration="5903000" />
-      <workItem from="1560751882274" duration="2174000" />
+      <workItem from="1560751882274" duration="4349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17042000" />
+    <option name="totallyTimeSpent" value="19217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20548862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20548862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -298,7 +301,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45555556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22916667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,29 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurkaclient01/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/java/com/ouxuxi/eurekaserver/EurekaserverApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,16 +440,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#794#795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaribbon/src/main/java/com/ouxuxi/eurekaribbon/controller/SpringCouldRibbonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,10 +487,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eurkaclient01/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eurekafeign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="26" column="21" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekazuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekazuul/src/main/java/com/ouxuxi/eurekazuul/EurekazuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekazuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekafeign/src/main/java/com/ouxuxi/eurekafeign/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaribbon/src/main/java/com/ouxuxi/eurekaribbon/controller/SpringCouldRibbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
